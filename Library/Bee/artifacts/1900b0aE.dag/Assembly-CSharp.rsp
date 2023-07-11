@@ -412,6 +412,8 @@
 "Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/ValidateInputAttribute.cs"
 "Assets/Cainos/Third Party/Lucid Editor/Runtime/Enum.cs"
 "Assets/Cainos/Third Party/Lucid Editor/Runtime/PropertyGroupAttribute.cs"
+"Assets/EnemiePatrol.cs"
+"Assets/EnemyAttack.cs"
 "Assets/Script/CameraController.cs"
 "Assets/Script/Enemy.cs"
 "Assets/Script/HealthBar.cs"

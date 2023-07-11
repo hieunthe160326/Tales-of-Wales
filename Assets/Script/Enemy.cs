@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+
     [SerializeField] private Animator animator;
     [SerializeField] private int maxHealth = 100;
     [SerializeField] private Rigidbody2D rigidbody;
     [SerializeField] private CapsuleCollider2D capsuleCollider;
+    private Transform currentPoint;
+    [SerializeField] private PlayerHealth playerHealth;
 
     private int enemyDamage = 20;
-    [SerializeField] private PlayerHealth playerHealth;
+   [SerializeField] private float speed;
     private int currentHealth;
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -23,6 +26,8 @@ public class Enemy : MonoBehaviour
 
     private void Start()
     {
+        rigidbody = GetComponent<Rigidbody2D>();
+
         rigidbody.isKinematic = true;
         currentHealth = maxHealth;
     }
