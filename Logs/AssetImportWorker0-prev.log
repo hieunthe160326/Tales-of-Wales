@@ -15,7 +15,7 @@ D:/FULearning/Semester7/PRU211m/Tales-of-Wales
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51201
+52217
 Successfully changed project path to: D:/FULearning/Semester7/PRU211m/Tales-of-Wales
 D:/FULearning/Semester7/PRU211m/Tales-of-Wales
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ D:/FULearning/Semester7/PRU211m/Tales-of-Wales
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [12676] Host "[IP] 192.168.2.100 [Port] 0 [Flags] 2 [Guid] 3901363942 [EditorId] 3901363942 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21592] Host "[IP] 192.168.2.100 [Port] 0 [Flags] 2 [Guid] 3133537364 [EditorId] 3133537364 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [12676] Host "[IP] 192.168.2.100 [Port] 0 [Flags] 2 [Guid] 3901363942 [EditorId] 3901363942 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21592] Host "[IP] 192.168.2.100 [Port] 0 [Flags] 2 [Guid] 3133537364 [EditorId] 3133537364 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 13.81 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 11.66 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.21f1 (4907324dc95b)
 [Subsystems] Discovering subsystems at path D:/Editor/2022.2.21f1/Editor/Data/Resources/UnitySubsystems
@@ -69,41 +69,41 @@ Initialize mono
 Mono path[0] = 'D:/Editor/2022.2.21f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Editor/2022.2.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Editor/2022.2.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Editor/2022.2.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005302 seconds.
-- Loaded All Assemblies, in  0.320 seconds
+Registered in 0.005532 seconds.
+- Loaded All Assemblies, in  0.384 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.268 seconds
+- Finished resetting the current domain, in  0.296 seconds
 Domain Reload Profiling:
-	ReloadAssembly (187ms)
-		BeginReloadAssembly (83ms)
+	ReloadAssembly (193ms)
+		BeginReloadAssembly (89ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (80ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (126ms)
-				TypeCache.Initialize (126ms)
-					TypeCache.ScanAssembly (124ms)
+			SetupTypeCache (180ms)
+				TypeCache.Initialize (179ms)
+					TypeCache.ScanAssembly (177ms)
 				ResolveRequiredComponents (0ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (210ms)
+			SetupLoadedEditorAssemblies (223ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (8ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (11ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (144ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				ProcessInitializeOnLoadAttributes (147ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -113,48 +113,48 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\FULearning\Semester7\PRU211m\Tales-of-Wales\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\FULearning\Semester7\PRU211m\Tales-of-Wales\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.755 seconds
-Refreshing native plugins compatible for Editor in 4.57 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.882 seconds
+Refreshing native plugins compatible for Editor in 4.74 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.586 seconds
+- Finished resetting the current domain, in  0.596 seconds
 Domain Reload Profiling:
-	ReloadAssembly (225ms)
-		BeginReloadAssembly (126ms)
+	ReloadAssembly (235ms)
+		BeginReloadAssembly (129ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		LoadAllAssembliesAndSetupDomain (525ms)
-			LoadAssemblies (265ms)
+			CreateAndSetChildDomain (21ms)
+		LoadAllAssembliesAndSetupDomain (644ms)
+			LoadAssemblies (302ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (317ms)
-				TypeCache.Initialize (288ms)
-					TypeCache.ScanAssembly (283ms)
+			SetupTypeCache (403ms)
+				TypeCache.Initialize (377ms)
+					TypeCache.ScanAssembly (372ms)
 				ResolveRequiredComponents (5ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (408ms)
+			SetupLoadedEditorAssemblies (411ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (5ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (276ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (282ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 6.33 ms, found 4 plugins.
+			AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 4.44 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4046 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 69 unused Assets / (244.7 KB). Loaded Objects now: 4506.
 Memory consumption went from 130.4 MB to 130.1 MB.
-Total: 3.987000 ms (FindLiveObjects: 0.325100 ms CreateObjectMapping: 0.310900 ms MarkObjects: 3.079600 ms  DeleteObjects: 0.270600 ms)
+Total: 3.805600 ms (FindLiveObjects: 0.406400 ms CreateObjectMapping: 0.365800 ms MarkObjects: 2.815100 ms  DeleteObjects: 0.217000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -169,89 +169,765 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 3357.566847 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Fence 01 Rail 01.asset
-  artifactKey: Guid(fcda61d2037aa134e86678a279bdd87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Fence 01 Rail 01.asset using Guid(fcda61d2037aa134e86678a279bdd87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4446466a97d5c049565132dbffd4d20e') in 0.076623 seconds
+  Time since last request: 4438.321867 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bucket 01.prefab
+  artifactKey: Guid(75e84fbdb66ab5647a06b786c6662307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bucket 01.prefab using Guid(75e84fbdb66ab5647a06b786c6662307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04a8556bed36d9eb33c05521f9593db') in 0.115399 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Clother Hanger Clip.asset
-  artifactKey: Guid(e37d8423687502446a2197b69ac77e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Clother Hanger Clip.asset using Guid(e37d8423687502446a2197b69ac77e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9fd0d45703c7b0d43054aa62059648') in 0.017253 seconds
+  Time since last request: 0.000032 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Arrow.prefab
+  artifactKey: Guid(27277137d0605bd45bd741cdb791e0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Arrow.prefab using Guid(27277137d0605bd45bd741cdb791e0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149e492e72baf90cddd3196c078de865') in 0.021888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bounding Platform 01.prefab
+  artifactKey: Guid(64ad26f35d95fc84997ad93db1292861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bounding Platform 01.prefab using Guid(64ad26f35d95fc84997ad93db1292861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b4e1893282ac43f0d6058775e5df55') in 0.020843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bush 02.prefab
+  artifactKey: Guid(e3ef72d9f2a941b479a3bda87147db32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bush 02.prefab using Guid(e3ef72d9f2a941b479a3bda87147db32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfcc3c3027320a0df913388b3a621f5a') in 0.026165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Silver.prefab
+  artifactKey: Guid(7f2681b23c23afc4fbb43c6dca9f41f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Silver.prefab using Guid(7f2681b23c23afc4fbb43c6dca9f41f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ff11dbbe1d528c221bf5cf3de39e92') in 0.052479 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Billboard.prefab
+  artifactKey: Guid(6ecf5bcec20adfa429a788f660f29ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Billboard.prefab using Guid(6ecf5bcec20adfa429a788f660f29ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c8f630702e7332f7c2d9009dd87b40') in 0.022493 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Campfire 01.prefab
+  artifactKey: Guid(e8bae36b607017047ace9061609051d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Campfire 01.prefab using Guid(e8bae36b607017047ace9061609051d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852c86f37d64cd5115562c79c521c74d') in 0.057519 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Banner.prefab
+  artifactKey: Guid(5fd9ed34f1f755643b41c4b41d7077e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Banner.prefab using Guid(5fd9ed34f1f755643b41c4b41d7077e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7986c81b275c521996d5b212f7fd763b') in 0.018045 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Cauldron.prefab
+  artifactKey: Guid(838a9c74e6cba734faec44d9be3b765e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Cauldron.prefab using Guid(838a9c74e6cba734faec44d9be3b765e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53bc9a5b1641e90bda71357e69e10ae4') in 0.019944 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chair.prefab
+  artifactKey: Guid(bb67ae3035abce24aa87122c96acac22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chair.prefab using Guid(bb67ae3035abce24aa87122c96acac22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8698e4e6e765d960a59aee5303cf018') in 0.018702 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Brick Wall 01.prefab
+  artifactKey: Guid(d4071901789ed384389951219d1e0315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Brick Wall 01.prefab using Guid(d4071901789ed384389951219d1e0315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84bcb7e364c3d1b2cf8833a4462e70c') in 0.018320 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 1.897438 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Background/Background.prefab
+  artifactKey: Guid(4acdff0ac95c42e47b8a8513507c7626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Background/Background.prefab using Guid(4acdff0ac95c42e47b8a8513507c7626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3180e3c786d6c03feff62ddb32cfd4a8') in 0.195524 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 724
+========================================================================
+Received Import Request.
+  Time since last request: 49.474076 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Flower 02.asset
+  artifactKey: Guid(ea30690c6697bd74685df1cc62e98fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Flower 02.asset using Guid(ea30690c6697bd74685df1cc62e98fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b7680d83c4893fea795e6520468acc') in 0.024358 seconds
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000013 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Clother Hanger Pillar 02.asset
-  artifactKey: Guid(d01bda8deddc9b241922cde85169d5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Clother Hanger Pillar 02.asset using Guid(d01bda8deddc9b241922cde85169d5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbbafab431b90e5f26b4d5d8c8831572') in 0.012740 seconds
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Grass 05.asset
+  artifactKey: Guid(5d8147c69e7de7847a193bb90e4d02af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Grass 05.asset using Guid(5d8147c69e7de7847a193bb90e4d02af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc021f57580f386071e7a9f34691018') in 0.021364 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Grass 01.asset
+  artifactKey: Guid(f164f61c527ea274989ff3f043df638f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Grass 01.asset using Guid(f164f61c527ea274989ff3f043df638f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7d5f1e8fd954236552f4e5c9e270e9') in 0.008787 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.359138 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Grass 06.asset
+  artifactKey: Guid(739881933c00abc488893d6081af8325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Grass 06.asset using Guid(739881933c00abc488893d6081af8325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957e3afa9da64c9bc3f88c0b1afdd118') in 0.010375 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Grass 08.asset
+  artifactKey: Guid(d18404f5ab7f35a4889ea5563fcc67c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Grass 08.asset using Guid(d18404f5ab7f35a4889ea5563fcc67c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7799bc1608092e6d06a803410a9f38') in 0.026148 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Gravestone 03.asset
+  artifactKey: Guid(f3bc092bb7bc73e46939c3a2e9cf571f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Gravestone 03.asset using Guid(f3bc092bb7bc73e46939c3a2e9cf571f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5d87bdc75f549555e340575fc17c02') in 0.019740 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Grass 09.asset
+  artifactKey: Guid(2e77da12add531a4e865953573c7bd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Grass 09.asset using Guid(2e77da12add531a4e865953573c7bd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9a22b1bd60bb6b72cd5b5b5b663884') in 0.011094 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.542435 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Gravestone 04.asset
+  artifactKey: Guid(b0292fb71b7e3c445911651a811105ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Gravestone 04.asset using Guid(b0292fb71b7e3c445911651a811105ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970b78d2f2d4232ecfa69b37e647a84e') in 0.019066 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Clother Hanger Rope 01.asset
-  artifactKey: Guid(c65f1a228af27f744a7210cd464f98ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Clother Hanger Rope 01.asset using Guid(c65f1a228af27f744a7210cd464f98ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9774747d888d7d8185310900c3f4067') in 0.009851 seconds
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Hanging Bag.asset
+  artifactKey: Guid(612c76d5c3fabf94c982eee8297109b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Hanging Bag.asset using Guid(612c76d5c3fabf94c982eee8297109b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc17d3dd0c852d5e341e913a7f7b0a8') in 0.022555 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000014 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Fence 01 Pillar 02.asset
-  artifactKey: Guid(c174036905bcf2d4f8a0679061362625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Fence 01 Pillar 02.asset using Guid(c174036905bcf2d4f8a0679061362625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1237552c8218eda479298711a4a5b23a') in 0.008720 seconds
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Hay Bale.asset
+  artifactKey: Guid(96c5a812b3110e848b3a99264f2dc63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Hay Bale.asset using Guid(96c5a812b3110e848b3a99264f2dc63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b930368dbdb2f4514756e8036d0699') in 0.019967 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Clother Hanger Pillar 01.asset
-  artifactKey: Guid(e3f39368151ceef4d979620788d25387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Clother Hanger Pillar 01.asset using Guid(e3f39368151ceef4d979620788d25387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9990a64cc0bce1c954b4ca0fd611f57') in 0.015005 seconds
+  Time since last request: 3.235207 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Hay Pile.asset
+  artifactKey: Guid(2e2c3bb322b0aac45bba8d0b12ebb050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Hay Pile.asset using Guid(2e2c3bb322b0aac45bba8d0b12ebb050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e5090c99934ccd26c1d780d37f5cfe') in 0.016436 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Clother Hanger Rope 02.asset
-  artifactKey: Guid(b3e43a45ecd894d4589ee1b46f43c822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Clother Hanger Rope 02.asset using Guid(b3e43a45ecd894d4589ee1b46f43c822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6848406a8393bf16e2247cba54c2607e') in 0.014757 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Fence 01 Pillar 01.asset
-  artifactKey: Guid(cef77e9ec0d35984d92435915431caab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Fence 01 Pillar 01.asset using Guid(cef77e9ec0d35984d92435915431caab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b305803db2a0d58480fa48e092121a') in 0.018174 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Crate Small.asset
-  artifactKey: Guid(64f8df34a8d4d6a47a42028a60299855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Crate Small.asset using Guid(64f8df34a8d4d6a47a42028a60299855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817f91a465fd801d413a04734ccb525d') in 0.012380 seconds
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Ladder 01 B.asset
+  artifactKey: Guid(c79b4c890272db64abb8309bf67a07aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Ladder 01 B.asset using Guid(c79b4c890272db64abb8309bf67a07aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6817b54ca45d224bcdcae161101b4c') in 0.041472 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Elevator Platform.asset
-  artifactKey: Guid(4fddc687202d94748b2dfc6a6a445538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Elevator Platform.asset using Guid(4fddc687202d94748b2dfc6a6a445538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca40234097b31ae6a645331be8521bd2') in 0.014291 seconds
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Ladder 01 M.asset
+  artifactKey: Guid(ff8fee0e8b62eef4aac2182f76263ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Ladder 01 M.asset using Guid(ff8fee0e8b62eef4aac2182f76263ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a865c31baa90b740e73782325877535') in 0.018804 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.016577 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Ladder 01 Side LM 01.asset
+  artifactKey: Guid(f9c1b288e5266e940954abf5254e9463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Ladder 01 Side LM 01.asset using Guid(f9c1b288e5266e940954abf5254e9463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147d5cc51c23d5c884b6f5c6f7aaf046') in 0.022779 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Ladder 01 Side RB.asset
+  artifactKey: Guid(1c773d478c7ff064c82a0ee355f2faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Ladder 01 Side RB.asset using Guid(1c773d478c7ff064c82a0ee355f2faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f069c4dd8601a7c70446787762f3b9') in 0.018454 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Ladder 01 Side RM 02.asset
+  artifactKey: Guid(4d6b43c26a9f3144fbc254418117f9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Ladder 01 Side RM 02.asset using Guid(4d6b43c26a9f3144fbc254418117f9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02362b8acd5160d3b98bd4aed2476b45') in 0.011343 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Ladder 01 Side LT.asset
+  artifactKey: Guid(c1a7a2602f4d28b4eb9a0194ce6c0ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Ladder 01 Side LT.asset using Guid(c1a7a2602f4d28b4eb9a0194ce6c0ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef51ee31a1d2895a9eb362d151c0f280') in 0.008006 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.128095 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Ladder 01 T.asset
+  artifactKey: Guid(b6a3db8bfda0e76409f5c4c22b722691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Ladder 01 T.asset using Guid(b6a3db8bfda0e76409f5c4c22b722691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b801236ba364079c2810662e19e81806') in 0.010642 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Ladder 02 Pillar C.asset
+  artifactKey: Guid(e1f735fc780b6c546ad441994beb13ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Ladder 02 Pillar C.asset using Guid(e1f735fc780b6c546ad441994beb13ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d47faf39938c55989c9e501775ebf3') in 0.009526 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Ladder 02 Step B.asset
+  artifactKey: Guid(8e7d4900a6f0ccb4cb4b899c99449e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Ladder 02 Step B.asset using Guid(8e7d4900a6f0ccb4cb4b899c99449e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e6a05eb5447b9bae1d4b48c7b3070d') in 0.025525 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Ladder 02 Step A.asset
+  artifactKey: Guid(1162c6eb66640b34382df6c4b76e7f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Ladder 02 Step A.asset using Guid(1162c6eb66640b34382df6c4b76e7f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438056429dfa389a19c0ff81528581b1') in 0.014852 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.013991 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Ladder 02 Step C.asset
+  artifactKey: Guid(5a5b872a416a65d4388aec11450a6bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Ladder 02 Step C.asset using Guid(5a5b872a416a65d4388aec11450a6bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0d5a3cf0a3e4c20bb7e72e4f05432f') in 0.011245 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Obstacle Platform X24.asset
+  artifactKey: Guid(84c0d92418b24de4484fffeb7c89f911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Obstacle Platform X24.asset using Guid(84c0d92418b24de4484fffeb7c89f911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4451cc199a36a4c21fdc9133f14da08') in 0.018263 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Obstacle Platform Large 02.asset
+  artifactKey: Guid(8713890465c45d747adfa3be00ac76f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Obstacle Platform Large 02.asset using Guid(8713890465c45d747adfa3be00ac76f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affd22cd3febd00db41ee0f05830a216') in 0.012505 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.256132 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Obstacle Platform X40.asset
+  artifactKey: Guid(b7ff8d06585c89e44af561ec53ba58fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Obstacle Platform X40.asset using Guid(b7ff8d06585c89e44af561ec53ba58fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda7314f058f7e3b552b4017cbcb4c25') in 0.014819 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Platform M 01.asset
+  artifactKey: Guid(e5c7f852ef6a9e743b03cc120a3bba4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Platform M 01.asset using Guid(e5c7f852ef6a9e743b03cc120a3bba4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178844b959affab14be5fcb3291a2800') in 0.007332 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Platform L 03.asset
+  artifactKey: Guid(4d783c3a0a6db184dae13b947db6282b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Platform L 03.asset using Guid(4d783c3a0a6db184dae13b947db6282b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '261ec16263992c2f49aa799dcd2fadc2') in 0.013027 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.610860 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Rock 01.asset
+  artifactKey: Guid(0deec8a5ca1bde448a429293260eba1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Rock 01.asset using Guid(0deec8a5ca1bde448a429293260eba1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102afa7391ff28c7e39e494b1e00398a') in 0.006923 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Rock 03.asset
+  artifactKey: Guid(fc4c9a0d6c66d65408ccd6f9ef274a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Rock 03.asset using Guid(fc4c9a0d6c66d65408ccd6f9ef274a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a05e65e014e65461b229e1323ab7d6a') in 0.008630 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Stairs X48.asset
+  artifactKey: Guid(3ae697a5a8a78d34b9e1046321708c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Stairs X48.asset using Guid(3ae697a5a8a78d34b9e1046321708c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1983d5a7d4fc16af898d39400fb3dabc') in 0.012968 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Seesaw 01 Support.asset
+  artifactKey: Guid(c7bb0dd2eba36204a92c34ac3b412b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Seesaw 01 Support.asset using Guid(c7bb0dd2eba36204a92c34ac3b412b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af4c007157f9b09da099c79b075e9e5') in 0.008857 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Stairs X24.asset
+  artifactKey: Guid(972a6d436c7035445aa5a7e46604d6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Stairs X24.asset using Guid(972a6d436c7035445aa5a7e46604d6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7079fe69438f0c46f55fbc444b80189') in 0.006906 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Wooden Bridge Part 05.asset
+  artifactKey: Guid(8f836e186f4dc0e4b861752f82c7f15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Wooden Bridge Part 05.asset using Guid(8f836e186f4dc0e4b861752f82c7f15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a799961d5092ec99b84758c276e1621') in 0.023387 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Fence 01 Rail 03.asset
-  artifactKey: Guid(5d2a4205659a17544b579c45d9a41be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Fence 01 Rail 03.asset using Guid(5d2a4205659a17544b579c45d9a41be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a51af22f14f84a738f208adc3da8cee') in 0.009315 seconds
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Wooden Bridge Rope.asset
+  artifactKey: Guid(6264ee9a47e73804389180909fb87e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Wooden Bridge Rope.asset using Guid(6264ee9a47e73804389180909fb87e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3fd289660972e216ddd514c12aad619') in 0.013405 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Wooden Bridge Part 01.asset
+  artifactKey: Guid(d54d174e59b02224ab768e6aeddf1aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Wooden Bridge Part 01.asset using Guid(d54d174e59b02224ab768e6aeddf1aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7e4f55b4498a99df658e06f07e8b19') in 0.014603 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Wheat 04.asset
+  artifactKey: Guid(b442fcebe44f289419e46fcdd19751ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Wheat 04.asset using Guid(b442fcebe44f289419e46fcdd19751ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8088d04552a4f6ac595216814f24f9c') in 0.013049 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Seesaw 01 Board.asset
+  artifactKey: Guid(c241e727d5ce449498eb0637b83b6c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Seesaw 01 Board.asset using Guid(c241e727d5ce449498eb0637b83b6c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536dec780987d3559f015f33faff6127') in 0.009759 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Tree 02.asset
+  artifactKey: Guid(c1c48f1313cf0e74788f40da8cd18691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Tree 02.asset using Guid(c1c48f1313cf0e74788f40da8cd18691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4ea73a0e22c1baef943044248e7da3') in 0.014462 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Wooden Bridge Part 02.asset
+  artifactKey: Guid(ddc9c858848e188459a7df6b074f4af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Wooden Bridge Part 02.asset using Guid(ddc9c858848e188459a7df6b074f4af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e6d47c9cddab439abbbf22e502826a') in 0.012433 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Sign Text 01.asset
+  artifactKey: Guid(b2cca6e1e7f06a4469dcacba2b9370ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Sign Text 01.asset using Guid(b2cca6e1e7f06a4469dcacba2b9370ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '962fc7757eee6be5f3e4d2a0c397b4f0') in 0.006931 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Stall Fruit 04.asset
+  artifactKey: Guid(a2e61596ba0e89b47b9545de99477b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Stall Fruit 04.asset using Guid(a2e61596ba0e89b47b9545de99477b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8dc8059dbc42c58fdacb8ee293e0a2') in 0.006968 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Wooden Bridge Part 03.asset
+  artifactKey: Guid(bc74a6da5c3dc324d8bc185104d7a62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Wooden Bridge Part 03.asset using Guid(bc74a6da5c3dc324d8bc185104d7a62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f485145aa9b4b0f36b27490d082f7c') in 0.014488 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Wine Bottle.asset
+  artifactKey: Guid(3461ebf07cf6b7640aa2a182260cfce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Wine Bottle.asset using Guid(3461ebf07cf6b7640aa2a182260cfce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe65bb5386a2b125c861143b0366df8') in 0.013594 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Wheat 05.asset
+  artifactKey: Guid(8a2fc6823702e934997e54362597960f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Wheat 05.asset using Guid(8a2fc6823702e934997e54362597960f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4727340f9cb4fabbe39974c5634ecb8b') in 0.013384 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Wood Logs.asset
+  artifactKey: Guid(1a067c83e1777c04ea0edbb97aeecd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Wood Logs.asset using Guid(1a067c83e1777c04ea0edbb97aeecd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd652a9140f85dcb6674f77112a7adaf3') in 0.013625 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Stall Fruit 03.asset
+  artifactKey: Guid(29b9118fb0fa84148b05cea25a2f7d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Stall Fruit 03.asset using Guid(29b9118fb0fa84148b05cea25a2f7d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4cbfda47c766033825819b712b84f3') in 0.013567 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Spike Plate.asset
+  artifactKey: Guid(611cfeade3298f44c96e77681dc983d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Spike Plate.asset using Guid(611cfeade3298f44c96e77681dc983d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48bf4d882b34d6d2bc73af1f30c41d12') in 0.007692 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Spear.asset
+  artifactKey: Guid(57c3558ff21087b4ca3df39253b9d2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Spear.asset using Guid(57c3558ff21087b4ca3df39253b9d2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd530b45633cdea20ca2998f0c77a84a0') in 0.013057 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Well.asset
+  artifactKey: Guid(51b51723b2dc5854f975306856410544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Well.asset using Guid(51b51723b2dc5854f975306856410544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf05bc1b863a17f445dd5aea6f56d22') in 0.013829 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.963189 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Stone of Recall.asset
+  artifactKey: Guid(a532c35b31ef1b74baa0473ff957be80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Stone of Recall.asset using Guid(a532c35b31ef1b74baa0473ff957be80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39bc3715b6bd84be7ee0257f4a6df136') in 0.009366 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Sunflower 02.asset
+  artifactKey: Guid(fb608e24ac5bc1a4ca53a6471e5277f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Sunflower 02.asset using Guid(fb608e24ac5bc1a4ca53a6471e5277f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11bbdeb94b85f6b8a8d684739a9886b5') in 0.011476 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Sunflower 01.asset
+  artifactKey: Guid(32eca0c5e289c4f4eb6b29b07bcdc364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Sunflower 01.asset using Guid(32eca0c5e289c4f4eb6b29b07bcdc364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767ac5b3bc9c95d8730c8081f11b694c') in 0.008380 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Stump.asset
+  artifactKey: Guid(7e9164a3e7484f946a36fb65bc692f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Stump.asset using Guid(7e9164a3e7484f946a36fb65bc692f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31796951aeea25b8cd1db34deacfaa9f') in 0.012470 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Sunflower 03.asset
+  artifactKey: Guid(ea7c30633a7119f4f9b2d228eb6d2e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Sunflower 03.asset using Guid(ea7c30633a7119f4f9b2d228eb6d2e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00acefadbf5335e9767b82e2c2f2a3dd') in 0.019969 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Torch.asset
+  artifactKey: Guid(d633aa9e57e90f647ad70f967f59da01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Torch.asset using Guid(d633aa9e57e90f647ad70f967f59da01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba4279cebe86ef6263fec2d63fdacb9') in 0.012639 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.025628 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Statue Bouquet.asset
+  artifactKey: Guid(05aea5a9ae94f37478144147ebe4e971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Statue Bouquet.asset using Guid(05aea5a9ae94f37478144147ebe4e971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9719b9099f4a0bac872a3cda7745497') in 0.017363 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 46.312290 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Road Lamp Pillar.asset
+  artifactKey: Guid(b8b246c10d9b9d3498f5f2a2a5fd527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Road Lamp Pillar.asset using Guid(b8b246c10d9b9d3498f5f2a2a5fd527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6456529c28b61ebab73d275b22c86d9') in 0.014704 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Road Sign Text 01.asset
+  artifactKey: Guid(32b71f083bc74e948954f819c45daa4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Road Sign Text 01.asset using Guid(32b71f083bc74e948954f819c45daa4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3263859b98f790fb88b555a4289604f1') in 0.016460 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Road Sign 01.asset
+  artifactKey: Guid(59d1cd8b9b9d5b640943196eb6863d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Road Sign 01.asset using Guid(59d1cd8b9b9d5b640943196eb6863d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82509e0d37c5096bc41fdf5fb57886c8') in 0.020769 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Road Sign 02.asset
+  artifactKey: Guid(88756b1939f9c1e49a21820d86a6e1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Road Sign 02.asset using Guid(88756b1939f9c1e49a21820d86a6e1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca7e019800c31b4575e511b6e1097e5') in 0.011434 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.173269 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Platform R 02.asset
+  artifactKey: Guid(e0b3bfba38e87e1459b1399e64e9d3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Platform R 02.asset using Guid(e0b3bfba38e87e1459b1399e64e9d3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ae72fb328dd22280b76024b59ada36') in 0.007420 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Pumpkin 02.asset
+  artifactKey: Guid(6d1515c434a0e9a478edbce507cc2786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Pumpkin 02.asset using Guid(6d1515c434a0e9a478edbce507cc2786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4c9daff2b08cbcebe009d6449d477c') in 0.007964 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Pot 02.asset
+  artifactKey: Guid(6cec0f499f42b8443be4e41d0028ccec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Pot 02.asset using Guid(6cec0f499f42b8443be4e41d0028ccec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007a1f586ed63fcaf6d8d1c215d7b8d4') in 0.011236 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Pot 01.asset
+  artifactKey: Guid(e67e0a8886be6dc49878f859c5c50e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Pot 01.asset using Guid(e67e0a8886be6dc49878f859c5c50e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75dc5e6d28a73cbbeeaed6736e932ed') in 0.013841 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Road Lamp Light Off.asset
+  artifactKey: Guid(3283267b91340e548a17eb3a6eef8a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Road Lamp Light Off.asset using Guid(3283267b91340e548a17eb3a6eef8a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa81260141d90ff52229779ea5170ed') in 0.010629 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
