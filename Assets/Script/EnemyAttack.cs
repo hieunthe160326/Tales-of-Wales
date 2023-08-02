@@ -61,7 +61,7 @@ public class EnemyAttack : MonoBehaviour
     {
         if (PlayerInSight())
         {
-            playerHealth.TakeDamageForPlayer(10);
+            playerHealth.TakeDamageForPlayer(5);
         }
     }
 }

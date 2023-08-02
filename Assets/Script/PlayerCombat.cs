@@ -17,9 +17,23 @@ public class PlayerCombat : MonoBehaviour
 
     private int attackDamage = 20;
 
+    [SerializeField] private TrailRenderer trailRenderer;
+    [SerializeField] private Rigidbody2D rigidbody;
+
+    private bool canDash = true;
+    private bool isDashing;
+    private float dashingPower = 24f;
+    private float dashingTime = 0.2f;
+    private float dashingCooldown = 1f;
+
     private void Update()
     {
-        if(Time.time >= nextAttackTime)
+        if (isDashing)
+        {
+            return;
+        }
+
+        if (Time.time >= nextAttackTime)
         {
             if (Input.GetKeyDown(KeyCode.J))
             {
@@ -28,16 +42,30 @@ public class PlayerCombat : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
         {
-            Dash();
+            StartCoroutine(Dash());
         }
-        
+
     }
 
-    private void Dash()
+    private IEnumerator Dash()
     {
         animator.SetTrigger("dash");
+
+        canDash = false;
+        isDashing = true;
+        float originalGravity = rigidbody.gravityScale;
+        rigidbody.gravityScale = 0;
+        rigidbody.velocity = new Vector2(transform.localScale.x * dashingPower, 0f);
+        trailRenderer.emitting = true;
+
+        yield return new WaitForSeconds(dashingTime);
+        trailRenderer.emitting = false;
+        rigidbody.gravityScale = originalGravity;
+        isDashing = false;
+        yield return new WaitForSeconds(dashingCooldown);
+        canDash = true;
     }
 
     private void Attack()
@@ -49,8 +77,10 @@ public class PlayerCombat : MonoBehaviour
         foreach(Collider2D enemy in hitEnemies)
         {
             enemy.GetComponent<Enemy>().TakeDamageForEnemies(attackDamage);
+
         }
     }
+
 
     private void OnDrawGizmosSelected()
     {
